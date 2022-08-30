@@ -4,9 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/articles.css">
     <script defer src="./js/mobNav.js"></script>
-    <title>Lite</title>
+    <!-- <script defer src="./js/articles.js"></script> -->
+    <script defer src="./js/articleContent.js"></script>
+    <title>Articles</title>
 </head>
 <body>
     <header>
@@ -16,7 +28,7 @@
         <nav>
         <ul>
             <li class="items"><a href="">Home</a></li>
-            <li class="items"><a href="./articles.html">Articles</a></li>
+            <li class="items"><a href="">Articles</a></li>
             <li class="items"><a href="">Questions - answers</a></li>
             <li class="items"><a href="">Freelance</a></li>
             <li><input + placeholder="Search" id="input_search" type="search"></li>
@@ -38,18 +50,15 @@
                     <li class="items"><a href="">Sing up</a></li>
                 </ul>
             </nav>
-            <div class="fon-menu" hidden></div>
-            
-
     </header>
-    <div  class="main">
-        <div>
-            <h1>Добро пожаловать в Lite!</h1>
-            <p>Lite - Сайт вопросов - ответ , а также статей и много другого.
-                Здесь вы сможите задать интересующий вас вопрос и тут же получить ответ на него , также вы можете читать написанные статьи на интересующие вас темы и писать свои.
-            </p>
-        </div>
+    <div class="help"></div>
+    <div class="fon-menu" hidden></div>
+
+    <div class="content">
+        <h1 id="heading"></h1>
+        <p id="content-page"></p>
     </div>
+
     <footer>
         <table>
             <tbody>
@@ -68,5 +77,7 @@
             </tbody>
         </table>
     </footer>
+</body>
+</html>
 </body>
 </html>

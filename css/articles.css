@@ -3,6 +3,9 @@ header {
   z-index: 1;
   top: 0%;
 }
+header ul {
+  top: 20%;
+}
 
 .help {
   width: 100%;
@@ -34,4 +37,16 @@ header {
 }
 .articles .items:hover {
   background-color: rgb(46, 54, 61);
+}
+
+.content {
+  color: rgba(255, 255, 255, 0.786);
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  text-align: justify;
+}
+.content h1 {
+  text-align: center;
 }/*# sourceMappingURL=articles.css.map */
