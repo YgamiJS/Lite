@@ -1,17 +1,3 @@
-/*header{
-    position: fixed;
-    z-index: 1;
-    top: 0%;
-
-    ul{
-        top: 20%;
-    }
-}*/
-.help {
-  width: 100%;
-  height: 50px;
-}
-
 .articles {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(115px, 1fr));
