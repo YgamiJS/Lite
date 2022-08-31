@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/articles.css">
+    <link rel="stylesheet" href="./css/question.css">
     <script defer src="./js/mobNav.js"></script>
-    <script defer src="./js/articleContent.js"></script>
-    <title>Article</title>
+    <script defer src="./js/find.js"></script>
+    <title>Questions - answers</title>
 </head>
 <body>
     <header>
@@ -40,15 +41,24 @@
                     <li class="items"><a href="">Sing up</a></li>
                 </ul>
             </nav>
-    <div class="fon-menu" hidden></div>
-
     </header>
+    <div class="help"></div>
+    <div class="fon-menu" hidden></div>
     
-    <div class="content">
-        <h1 id="heading"></h1>
-        <p id="content-page"></p>
-    </div>
 
+    <div class="wraper-panel">
+        <div class="panel">
+            <input + placeholder="Search question" id="search-question">
+            <button>Make question</button>
+        </div>
+        <div class="list-question">
+            <div class="question" value="test">Lorem Input <button>Look</button></div>
+            <div class="question">Lorem Input <button>Look</button></div>
+            <div class="question">Lorem Input <button>Look</button></div>
+            <div class="question">Lorem Input <button>Look</button></div>
+            <div class="question">Lorem Input <button>Look</button></div>
+        </div>
+    </div>
     <footer>
         <table>
             <tbody>
@@ -67,7 +77,5 @@
             </tbody>
         </table>
     </footer>
-</body>
-</html>
 </body>
 </html>
