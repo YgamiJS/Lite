@@ -1,5 +1,5 @@
 "use strict";
-
+function Load(){
 const text = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex blanditiis ullam alias molestias illum iusto deleniti praesentium cum, qui animi voluptatem porro, dolorem exercitationem saepe reiciendis vel nesciunt consequuntur modi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, sapiente officia rerum obcaecati ratione error quidem libero! Enim asperiores ab fugiat, at beatae eius corporis accusamus ipsa maxime, animi ea.
 Veniam reiciendis ad modi repudiandae soluta placeat voluptates adipisci, iusto aut, autem at similique ab eum perferendis esse dignissimos dolorem animi voluptatum quo consequatur, sit debitis corrupti est! Ipsa, fugiat!
 Eaque similique quae doloremque, quam voluptas nemo vel ad! Iure ratione perspiciatis rerum, autem alias placeat quaerat dolorum velit perferendis exercitationem. Quaerat odit voluptate optio ipsa voluptatum ducimus molestiae esse?
@@ -104,4 +104,7 @@ Corporis architecto fugit ex expedita`;
 let items = document.querySelectorAll(".items");
 items.forEach(element => {
    element.setAttribute( "value" ,text); 
-});
+})}
+Load();
+
+export {Load};

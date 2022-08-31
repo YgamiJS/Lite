@@ -23,6 +23,7 @@ header h1 {
   position: absolute;
   top: 1%;
   left: 5%;
+  z-index: 6;
 }
 header ul {
   display: flex;
@@ -68,7 +69,8 @@ header ul li input {
 }
 @media (max-width: 1024px) and (max-width: 520px) {
   header .mob-nav {
-    left: 75%;
+    left: 78%;
+    top: 1%;
   }
 }
 @media (max-width: 1024px) {
@@ -120,6 +122,27 @@ header ul li input {
   transition: all;
   transition-duration: 500ms;
   transition-timing-function: ease;
+}
+
+.pagitation {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  -moz-column-gap: 0px;
+       column-gap: 0px;
+  place-items: center;
+  padding: 0px 42%;
+}
+@media (max-width: 520px) {
+  .pagitation {
+    padding: 0px 30%;
+  }
+}
+.pagitation .items-pagitation {
+  border: 3px solid black;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
 }
 
 footer {
