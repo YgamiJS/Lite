@@ -12,10 +12,6 @@ body{
     margin: 0px;
     padding: 0px;
 }
-.help{
-    width: 100%;
-    height: 50px;
-}
 header{
     background-color: #1e232a;
     color:$ColorWhite;
@@ -68,6 +64,9 @@ header{
             top: 1.5%;
             color:$ColorWhite;
             z-index: 3;
+            @media(max-width: 520px){
+                left: 75%;
+            }
         }
         .mob-nav-list{
             position:absolute;

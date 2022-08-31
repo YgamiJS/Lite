@@ -12,11 +12,6 @@ body {
   padding: 0px;
 }
 
-.help {
-  width: 100%;
-  height: 50px;
-}
-
 header {
   background-color: #1e232a;
   color: white;
@@ -70,10 +65,19 @@ header ul li input {
     color: white;
     z-index: 3;
   }
+}
+@media (max-width: 1024px) and (max-width: 520px) {
+  header .mob-nav {
+    left: 75%;
+  }
+}
+@media (max-width: 1024px) {
   header .mob-nav-list {
     position: absolute;
     z-index: 2;
   }
+}
+@media (max-width: 1024px) {
   header ul {
     left: 5%;
     display: flex;
