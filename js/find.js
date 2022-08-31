@@ -1,5 +1,5 @@
 "use strict";
-
+//капец тут
 let input = document.querySelector("#search-question"); 
 
 input.addEventListener("input" , function(){
