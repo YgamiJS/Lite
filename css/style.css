@@ -155,7 +155,7 @@ header ul li input {
 footer {
   position: relative;
   background-color: #30363d;
-  top: 80vh;
+  top: 100vh;
   height: 15vh;
   color: white;
 }
