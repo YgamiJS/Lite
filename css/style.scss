@@ -28,9 +28,9 @@ header{
         position: absolute;
         left: 40vw;
         top: 2%;
-        right: -21%;
         @media (min-width: 1024px) and (max-width: 1205px) {
             left: 19vw;
+            right: -21%;
         }
         li{
             margin: 0px 5px 0px 5px;

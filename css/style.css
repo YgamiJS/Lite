@@ -29,11 +29,11 @@ header ul {
   position: absolute;
   left: 40vw;
   top: 2%;
-  right: -21%;
 }
 @media (min-width: 1024px) and (max-width: 1205px) {
   header ul {
     left: 19vw;
+    right: -21%;
   }
 }
 header ul li {
@@ -155,7 +155,7 @@ header ul li input {
 footer {
   position: relative;
   background-color: #30363d;
-  top: 100vh;
+  top: 80vh;
   height: 15vh;
   color: white;
 }
