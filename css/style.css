@@ -6,7 +6,6 @@
 body {
   background-color: #21262d;
   font-family: "Inter", sans-serif;
-  overflow: scroll;
   overflow-x: hidden;
   margin: 0px;
   padding: 0px;
@@ -148,7 +147,7 @@ header ul li input {
 footer {
   position: relative;
   background-color: #30363d;
-  top: 80vh;
+  top: 100vh;
   height: 15vh;
   color: white;
 }
