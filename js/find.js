@@ -7,7 +7,7 @@ input.addEventListener("input" , function(){
 
     questions.forEach(function(item , index){
 
-        if(new RegExp(`${item.getAttribute('value')}` , "gi").test(input.value)) item.style.backgroundColor = "white"; else  item.style.display = "none";
+        if(new RegExp(`${item.getAttribute('value')}` , "gi").test(input.value)) item.style.cssText = `background-color: white; color: black;`; else  item.style.display = "none";
     })
 })
 

@@ -28,6 +28,10 @@ header{
         position: absolute;
         left: 40vw;
         top: 2%;
+        right: -21%;
+        @media (min-width: 1024px) and (max-width: 1205px) {
+            left: 19vw;
+        }
         li{
             margin: 0px 5px 0px 5px;
             list-style: none;
@@ -48,6 +52,7 @@ header{
                 margin: 0px;
                 padding: 5px;
                 border-radius: 24px;
+                border: 1px solid black;
             }
         }
     }
@@ -68,6 +73,7 @@ header{
                 left: 78%;
                 top: 1%;
             }
+            cursor: pointer;
         }
         .mob-nav-list{
             position:absolute;

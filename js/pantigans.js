@@ -1,5 +1,5 @@
 "use strict";
-import {Load} from "./LoremText.js";
+import {loadPage} from "./LoremText.js";
 
 document.querySelector(".pagitation").addEventListener("click" , (event)=>{
     if(event.target.classList.contains("pagitation")) return;
@@ -7,6 +7,6 @@ document.querySelector(".pagitation").addEventListener("click" , (event)=>{
     alert(event.target.textContent)
     for(let i = 0; i <= 57; i++){
         document.querySelector(".articles").insertAdjacentHTML("beforeend" , `<div class='items'>${event.target.textContent}</div>`)
-        Load();
+        loadPage();
     }
 });

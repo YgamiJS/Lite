@@ -34,7 +34,7 @@
 }
 .wraper-panel .panel button:hover {
   background-color: #238636;
-  border: 3px solid black;
+  border: 3px solid white;
   cursor: pointer;
 }
 .wraper-panel .list-question {
@@ -46,6 +46,7 @@
   width: 50%;
   height: 10%;
   background-color: #238636;
+  color: white;
   padding: 5px;
   border-radius: 24px;
   margin: 10px 0px;
@@ -57,7 +58,23 @@
   background-color: #189b32;
   border-radius: 24px;
   margin-left: 70%;
+  color: white;
   padding: 5px 10px;
+}
+@media (max-width: 520px) {
+  .wraper-panel .list-question .question button {
+    margin-left: 10%;
+  }
+}
+@media (min-width: 520px) and (max-width: 720px) {
+  .wraper-panel .list-question .question button {
+    margin-left: 24%;
+  }
+}
+@media (min-width: 720px) and (max-width: 1100px) {
+  .wraper-panel .list-question .question button {
+    margin-left: 42%;
+  }
 }
 .wraper-panel .list-question .question button:hover {
   background-color: #16b937;

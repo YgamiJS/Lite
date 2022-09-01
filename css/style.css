@@ -29,6 +29,12 @@ header ul {
   position: absolute;
   left: 40vw;
   top: 2%;
+  right: -21%;
+}
+@media (min-width: 1024px) and (max-width: 1205px) {
+  header ul {
+    left: 19vw;
+  }
 }
 header ul li {
   margin: 0px 5px 0px 5px;
@@ -51,6 +57,7 @@ header ul li input {
   margin: 0px;
   padding: 5px;
   border-radius: 24px;
+  border: 1px solid black;
 }
 @media (max-width: 1024px) {
   header .pc-nav {
@@ -64,6 +71,7 @@ header ul li input {
     top: 1.5%;
     color: white;
     z-index: 3;
+    cursor: pointer;
   }
 }
 @media (max-width: 1024px) and (max-width: 520px) {
