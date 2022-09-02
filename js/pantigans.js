@@ -7,6 +7,6 @@ document.querySelector(".pagitation").addEventListener("click" , (event)=>{
     alert(event.target.textContent)
     for(let i = 0; i <= 57; i++){
         document.querySelector(".articles").insertAdjacentHTML("beforeend" , `<div class='items'>${event.target.textContent}</div>`)
-        loadPage();
+        loadPage("items" , 'value');
     }
 });

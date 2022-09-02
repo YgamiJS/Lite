@@ -1,0 +1,16 @@
+.wraper-question{
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.93);
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50% , -25%);
+    text-align: justify;
+
+    .question{
+        margin-bottom: 5%;
+    }
+    h2{
+        margin-bottom: 5%;
+    }
+}
