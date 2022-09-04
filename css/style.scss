@@ -10,6 +10,12 @@ body{
     overflow-x: hidden;
     margin: 0px;
     padding: 0px;
+    &::-webkit-scrollbar{
+        
+    }
+    &::-webkit-scrollbar-thumb{
+        
+    }
 }
 header{
     background-color: #1e232a;
@@ -59,7 +65,7 @@ header{
 
     @media(max-width: 1024px){
         .pc-nav{
-            visibility: hidden;
+            display: none !important;
         }
         .mob-nav{
             display: block;
@@ -72,6 +78,7 @@ header{
             @media(max-width: 520px){
                 left: 78%;
                 top: 1%;
+                width: 0%;
             }
             cursor: pointer;
         }
@@ -93,7 +100,7 @@ header{
             visibility: visible;
         }
         .mob-nav{
-            visibility:hidden;
+            display: none !important;
         }
     }
 }
