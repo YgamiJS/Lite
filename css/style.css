@@ -51,6 +51,14 @@ header ul li a:hover {
   transition-timing-function: ease;
   text-decoration: underline;
   text-underline-offset: 5px;
+  /*&::after{
+      content: " ";
+      display: block;
+      width: 1.5em;
+      height: .2em;
+      background-color: #f00c0c;
+      border-radius: 10px;
+  }*/
 }
 header ul li input {
   margin: 0px;
@@ -173,5 +181,5 @@ footer a:hover {
   text-underline-offset: 5px;
 }
 footer table tr td {
-  padding: 15px;
+  padding: 8px;
 }/*# sourceMappingURL=style.css.map */

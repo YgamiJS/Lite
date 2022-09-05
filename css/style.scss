@@ -52,6 +52,14 @@ header{
                     transition-timing-function: ease;
                     text-decoration: underline;
                     text-underline-offset: 5px;
+                    /*&::after{
+                        content: " ";
+                        display: block;
+                        width: 1.5em;
+                        height: .2em;
+                        background-color: #f00c0c;
+                        border-radius: 10px;
+                    }*/
                 }
             }
             input{
@@ -169,7 +177,7 @@ footer{
     table{
         tr{
             td{
-            padding: 15px;
+            padding: 8px;
             }
         }
     }

@@ -1,16 +1,19 @@
 .wraper-question{
-    display: inline-block;
     color: rgba(255, 255, 255, 0.93);
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50% , -25%);
     text-align: justify;
+    position: relative;
+    left: 50%;
+    width: 80%;
+    transform: translateX(-50%);
 
     .question{
         margin-bottom: 5%;
+        h1{
+            text-align: center;
+        }
     }
     h2{
+        text-align: center;
         margin-bottom: 5%;
     }
 }
