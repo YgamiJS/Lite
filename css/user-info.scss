@@ -1,0 +1,21 @@
+.user-info{
+    background-color: #33363a;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    transform: translate(-50% , -35%);
+    padding: 8vw;
+    border-radius: 24px;
+    .avatar{
+        background-color: #72777f;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0px 0px 20px 0px;
+    }
+}

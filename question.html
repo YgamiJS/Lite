@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/questionStyle.css">
+    <script defer src="./js/checkUserData.js"></script>
     <script defer src="./js/questionSetDate.js" type="module"></script>
-    <!-- <script defer src="./js/articleContent.js" type="module"></script> -->
+    <script defer src="./js/singData.js"></script>
     <script defer src="./js/mobNav.js"></script>
     <link rel="icon" href="./img/logo.ico">
     <title>Document</title>
@@ -18,28 +19,28 @@
 
         <div class="pc-nav">
         <nav>
-        <ul>
+        <ul class="_choice_">
             <li class="items"><a href="">Home</a></li>
             <li class="items"><a href="https://ygamijs.github.io/Lite/articles">Articles</a></li>
             <li class="items"><a href="https://ygamijs.github.io/Lite/questionAnwer.html">Questions - answers</a></li>
             <li class="items"><a href="">Freelance</a></li>
             <li><input + placeholder="Search" id="input_search" type="search"></li>
-            <li class="items"><a href="">Sing in</a></li>
-            <li class="items"><a href="">Sing up</a></li>
+            <li class="items sing"><a href="">Sing in</a></li>
+            <li class="items sing"><a href="">Sing up</a></li>
         </ul>
         </nav>
         </div>
 
         <div class="mob-nav">=</div>
             <nav class="mob-nav-list" hidden>
-                <ul>
+                <ul class="_choice_">
                     <li><input + placeholder="Search" id="input_search" type="search"></li>
                     <li class="items"><a href="">Home</a></li>
                     <li class="items"><a href="https://ygamijs.github.io/Lite/articles.html">Articles</a></li>
                     <li class="items"><a href="https://ygamijs.github.io/Lite/questionAnwer.html">Questions - answers</a></li>
                     <li class="items"><a href="">Freelance</a></li>
-                    <li class="items"><a href="">Sing in</a></li>
-                    <li class="items"><a href="">Sing up</a></li>
+                    <li class="items sing"><a href="">Sing in</a></li>
+                    <li class="items sing"><a href="">Sing up</a></li>
                 </ul>
             </nav>
             <div class="fon-menu" hidden></div>
@@ -59,10 +60,10 @@
     <footer>
         <table>
             <tbody>
-                <tr>
+                <tr class="_choice_">
                     <td>Account: </td>
-                    <td><a href="">Sing in</a></td>
-                    <td><a href="">Sing up</a></td>
+                    <td class="sing"><a href="">Sing in</a></td>
+                    <td class="sing"><a href="">Sing up</a></td>
                 </tr>
 
                 <tr>

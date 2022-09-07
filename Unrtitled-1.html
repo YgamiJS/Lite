@@ -5,15 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/articles.css">
-    <link rel="stylesheet" href="./css/question.css">
-    <script defer src="./js/checkUserData.js"></script>
+    <link rel="stylesheet" href="./css/user-info.css">
+    <script defer src="./js/user-profile.js"></script>
     <script defer src="./js/singData.js"></script>
+    <script defer src="./js/checkUserData.js"></script>
     <script defer src="./js/mobNav.js"></script>
-    <script defer src="./js/find.js"></script>
-    <script defer src="./js/questionscript.js" type="module"></script>
     <link rel="icon" href="./img/logo.ico">
-    <title>Questions - answers</title>
+    <title>Lite</title>
 </head>
 <body>
     <header>
@@ -27,8 +25,8 @@
             <li class="items"><a href="https://ygamijs.github.io/Lite/questionAnwer.html">Questions - answers</a></li>
             <li class="items"><a href="">Freelance</a></li>
             <li><input + placeholder="Search" id="input_search" type="search"></li>
-            <li class="items sing"><a href="">Sing in</a></li>
-            <li class="items sing"><a href="">Sing up</a></li>
+            <li class="items sing"><a href="./sing.html">Sing in</a></li>
+            <li class="items sing"><a href="./sing.html">Sing up</a></li>
         </ul>
         </nav>
         </div>
@@ -38,31 +36,19 @@
                 <ul class="_choice_">
                     <li><input + placeholder="Search" id="input_search" type="search"></li>
                     <li class="items"><a href="">Home</a></li>
-                    <li class="items"><a href="">Articles</a></li>
-                    <li class="items"><a href="">Questions - answers</a></li>
+                    <li class="items"><a href="https://ygamijs.github.io/Lite/articles.html">Articles</a></li>
+                    <li class="items"><a href="https://ygamijs.github.io/Lite/questionAnwer.html">Questions - answers</a></li>
                     <li class="items"><a href="">Freelance</a></li>
                     <li class="items sing"><a href="">Sing in</a></li>
                     <li class="items sing"><a href="">Sing up</a></li>
                 </ul>
             </nav>
+            <div class="fon-menu" hidden></div>
     </header>
-    <div class="help"></div>
-    <div class="fon-menu" hidden></div>
-    
-
-    <div class="wraper-panel">
-        <div class="panel">
-            <input + placeholder="Search question" id="search-question">
-            <button>Make question</button>
-        </div>
-        <div class="list-question">
-            <div class="question"  value="test1">Lorem Input <button>Look</button></div>
-            <div class="question"  value="test2">Lorem Input <button>Look</button></div>
-            <div class="question"  value="test3">Lorem Input <button>Look</button></div>
-            <div class="question"  value="test4">Lorem Input <button>Look</button></div>
-            <div class="question"  value="test5">Lorem Input <button>Look</button></div>
-        </div>
-    </div>
+    <div class="user-info">
+        <div class="avatar"></div>
+        <h3></h3>
+    </div>    
     <footer>
         <table>
             <tbody>
@@ -71,10 +57,9 @@
                     <td class="sing"><a href="">Sing in</a></td>
                     <td class="sing"><a href="">Sing up</a></td>
                 </tr>
-
                 <tr>
                     <td>Sections:</td>
-                    <td><a href="https://ygamijs.github.io/Lite/articles.html">Articles</a></td>
+                    <td><a href="https://ygamijs.github.io/Lite/articles.html">Articles</a</td>
                     <td><a href="https://ygamijs.github.io/Lite/questionAnwer.html">Questions - answers</a></td>
                     <td><a href="">Freelance</a></td>
                 </tr>

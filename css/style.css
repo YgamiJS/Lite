@@ -180,6 +180,10 @@ footer a:hover {
   text-decoration: underline;
   text-underline-offset: 5px;
 }
+footer table tr li {
+  list-style: none;
+  padding-top: 6px;
+}
 footer table tr td {
   padding: 8px;
 }/*# sourceMappingURL=style.css.map */
