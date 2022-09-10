@@ -11,8 +11,9 @@ $ColorWhite: white;
     left: 50%;
     transform: translate(-50% , -40%);
     border-radius: 24px;
-    width: 68vw;
-    height: 60vh;
+    width: auto; //68vw
+    height: auto; //60vh
+    padding: 20px; // none
     .panel{
         display: flex;
         flex-wrap: wrap;
@@ -26,6 +27,8 @@ $ColorWhite: white;
             border-radius: 5px;
             padding: 5px 10px;
             color: $ColorWhite;
+            margin-left: 10px;
+            margin-top: 10px;
         }
         button{
             border: 3px solid #238636;
@@ -43,6 +46,7 @@ $ColorWhite: white;
         flex-direction: column;
         align-items: center;
         .question{
+            text-align: -webkit-center; // none
             width: 50%;
             height: 10%;
             background-color: #238636;
@@ -57,16 +61,16 @@ $ColorWhite: white;
             button{
                 background-color: #189b32;
                 border-radius: 24px;
-                margin-left: 70%;
+                margin-left: 5%; // 70
                 color: $ColorWhite;
                 @media(max-width: 520px){
-                    margin-left: 10%;
+                    margin-left: 0%;
                 }
                 @media (min-width: 520px) and (max-width: 720px) {
-                    margin-left: 24%;
+                    margin-left: 5%; // 24
                 }
                 @media (min-width: 720px) and (max-width: 1100px) {
-                    margin-left: 42%;
+                    margin-left: 5%; //42
                 }
                 padding: 5px 10px;
                 &:hover{

@@ -67,6 +67,7 @@ header{
                 padding: 5px;
                 border-radius: 24px;
                 border: 1px solid black;
+                display: block;
             }
         }
     }
@@ -126,6 +127,13 @@ header{
     text-align: -webkit-center;
    }
 }
+.fon-search{
+    background-color: #3e4248; border-radius: 24px 24px 5px 5px;
+    .find-items{
+        display: block;
+        text-align: center;
+    }
+}
 .fon-menu{
     background-color:#1e232a;
     position: absolute;
@@ -142,23 +150,29 @@ header{
     grid-template-columns: repeat(5 , 1fr);
     column-gap: 0px;
     place-items: center;
-    padding: 0px 42%;
-    @media(max-width: 520px){
-        padding: 0px 30%;
+    padding: 0px 26vw;
+    @media(min-width: 1024px){
+        padding: 0px 36%; //30
     }
     .items-pagitation{
-        border: 3px solid black;
+        border: 3px solid #4d4c4c;;
         color: $ColorWhite;
-        border-radius: 5px;
-        padding: 5px;
+        border-radius: 50px;
+        padding: 5px 10px;
         cursor: pointer;
+        &:hover{
+            background-color: #4d4c4c;
+        }
     }
 }
 footer{
     position: relative;
     background-color: #30363d;
+    display: flex;
     top: 80vh;
+    padding-left: 5%;
     height: 15vh;
+    padding-bottom: 15px;
     color: $ColorWhite;
     a{
         color: $ColorWhite;
@@ -174,15 +188,11 @@ footer{
         }
     }
     
-    table{
-        tr{
+        ul{
+            margin-right: 10px;
             li{
                 list-style: none;
-                padding-top: 6px;
-            }
-            td{
-            padding: 8px;
+                padding: 13px 0px 5px 5px;
             }
         }
-    }
 }
