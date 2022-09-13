@@ -4,9 +4,10 @@
   width: 80vw;
   -moz-column-gap: 20px;
        column-gap: 20px;
-  margin-top: 20px;
+  margin: 20px 0px 0px 0px !important;
   position: relative;
-  left: 9%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .articles .items {
   background-color: rgb(39, 45, 50);
@@ -24,6 +25,11 @@
 }
 .articles .items:hover {
   background-color: rgb(46, 54, 61);
+}
+@media (max-width: 540px) {
+  .articles {
+    transform: translateX(-46%);
+  }
 }
 
 .content {

@@ -96,7 +96,7 @@ header{
             z-index: 2;
         }
         ul{
-            left: 5%;
+            left: 3vw; //5%
             display: flex;
             flex-direction: column;
             li{
@@ -128,7 +128,7 @@ header{
    }
 }
 .fon-search{
-    background-color: #3e4248; border-radius: 24px 24px 5px 5px;
+    background-color: #3e4248; border-radius: 13px 13px 24px 24px;
     .find-items{
         display: block;
         text-align: center;
@@ -136,7 +136,7 @@ header{
 }
 .fon-menu{
     background-color:#1e232a;
-    position: absolute;
+    position: fixed;
     top: 0%;
     width: 100%;
     height: 100%;

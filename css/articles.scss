@@ -3,9 +3,10 @@
     grid-template-columns: repeat( auto-fill, minmax(115px , 1fr) );
     width: 80vw;
     column-gap: 20px;
-    margin-top: 20px;
+    margin: 20px 0px 0px 0px !important;
     position: relative;
-    left: 9%;
+    left: 50%;
+    transform: translateX(-50%);
     .items{
         background-color: rgb(39, 45, 50);
         background-position: center;
@@ -22,6 +23,9 @@
         &:hover{
             background-color: rgb(46, 54, 61);
         }
+    }
+    @media (max-width: 540px) {
+        transform: translateX(-46%);
     }
 }
 .content{
