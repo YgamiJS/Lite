@@ -10,10 +10,13 @@ function MakeAhit(Input_value  , href , arrArguments){
 input.addEventListener("focus" , function(){
     input.closest("li").classList.add("fon-search");
 
-    document.querySelector(".fon-search").addEventListener("mouseout" , function(){
-        document.querySelector(".fon-search").classList.remove("fon-search");
-        document.querySelectorAll('.find-items').forEach((item) => item.remove());
-        input.value = '';
+    input.closest("li").addEventListener("mouseout" , function(event){
+        if(!event.relatedTarget.closest(".fon-search")){
+            // document.querySelector(".fon-search").classList.remove("fon-search");
+            document.querySelectorAll('.find-items').forEach((item) => item.remove());
+            input.blur();
+            input.value = '';
+        }
     })
 })
 

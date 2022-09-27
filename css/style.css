@@ -67,52 +67,6 @@ header ul li input {
   border: 1px solid black;
   display: block;
 }
-@media (max-width: 1024px) {
-  header .pc-nav {
-    display: none !important;
-  }
-  header .mob-nav {
-    display: block;
-    position: relative;
-    left: 85%;
-    font-size: 3em;
-    top: 1.5%;
-    color: white;
-    z-index: 3;
-    cursor: pointer;
-  }
-}
-@media (max-width: 1024px) and (max-width: 520px) {
-  header .mob-nav {
-    left: 78%;
-    top: 1%;
-    width: 0%;
-  }
-}
-@media (max-width: 1024px) {
-  header .mob-nav-list {
-    position: absolute;
-    z-index: 2;
-  }
-}
-@media (max-width: 1024px) {
-  header ul {
-    left: 3vw;
-    display: flex;
-    flex-direction: column;
-  }
-  header ul li {
-    margin: 10px;
-  }
-}
-@media (min-width: 1024px) {
-  header .pc-nav {
-    visibility: visible;
-  }
-  header .mob-nav {
-    display: none !important;
-  }
-}
 
 .main {
   position: absolute;
@@ -133,7 +87,7 @@ header ul li input {
   border-radius: 13px 13px 24px 24px;
 }
 .fon-search .find-items {
-  display: block;
+  display: inline-block;
   text-align: center;
 }
 
@@ -156,11 +110,6 @@ header ul li input {
        column-gap: 0px;
   place-items: center;
   padding: 0px 26vw;
-}
-@media (min-width: 1024px) {
-  .pagitation {
-    padding: 0px 36%;
-  }
 }
 .pagitation .items-pagitation {
   border: 3px solid #4d4c4c;
@@ -202,4 +151,61 @@ footer ul {
 footer ul li {
   list-style: none;
   padding: 13px 0px 5px 5px;
+}
+
+@media (min-width: 1024px) {
+  .pc-nav {
+    visibility: visible;
+  }
+  .mob-nav {
+    display: none !important;
+  }
+  .pagitation {
+    padding: 0px 36%;
+  }
+}
+@media (max-width: 1024px) {
+  .pc-nav {
+    display: none !important;
+  }
+  .mob-nav {
+    display: block;
+    position: relative;
+    left: 85%;
+    font-size: 3em;
+    top: 1.5%;
+    color: white;
+    z-index: 3;
+    cursor: pointer;
+  }
+}
+@media (max-width: 1024px) and (max-width: 520px) {
+  .mob-nav {
+    left: 78%;
+    top: 1%;
+    width: 0%;
+  }
+}
+@media (max-width: 1024px) {
+  .mob-nav-list {
+    position: absolute;
+    z-index: 2;
+  }
+}
+@media (max-width: 1024px) {
+  header ul {
+    left: 3vw;
+    display: flex;
+    flex-direction: column;
+  }
+  header ul li {
+    margin: 10px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1205px) {
+  header ul {
+    left: 19vw;
+    right: -21%;
+    align-self: baseline;
+  }
 }/*# sourceMappingURL=style.css.map */

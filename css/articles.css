@@ -6,8 +6,11 @@
        column-gap: 20px;
   margin: 20px 0px 0px 0px !important;
   position: relative;
+  top: 0;
   left: 50%;
-  transform: translateX(-50%);
+  right: 0;
+  bottom: 0;
+  transform: translate(-50%, 0);
 }
 .articles .items {
   background-color: rgb(39, 45, 50);
@@ -28,15 +31,18 @@
 }
 @media (max-width: 540px) {
   .articles {
-    transform: translateX(-46%);
+    transform: translateX(-50%);
   }
 }
 
 .content {
   color: rgba(255, 255, 255, 0.786);
   position: relative;
+  top: 0;
   left: 50%;
-  transform: translateX(-50%);
+  right: 0;
+  bottom: 0;
+  transform: translate(-50%, 0);
   width: 80%;
   text-align: justify;
 }
