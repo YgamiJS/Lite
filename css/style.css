@@ -87,8 +87,8 @@ header ul li input {
   border-radius: 13px 13px 24px 24px;
 }
 .fon-search .find-items {
-  display: inline-block;
-  text-align: center;
+  display: block;
+  text-align: -webkit-center;
 }
 
 .fon-menu {

@@ -1,3 +1,3 @@
 "use strict";
-import {GetDate} from "./articleContent.js";
-GetDate(".head-question" , ".page-question" ,  "data-question" , ".page-answer")
+import {GetData} from "./articleContent.js";
+GetData(".head-question" , ".page-question" ,  "data-question" , ".page-answer")

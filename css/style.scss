@@ -91,8 +91,8 @@ header{
 .fon-search{
     background-color: #3e4248; border-radius: 13px 13px 24px 24px;
     .find-items{
-        display: inline-block;
-        text-align: center;
+        display: block;
+        text-align: -webkit-center;
     }
 }
 .fon-menu{
