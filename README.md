@@ -5,4 +5,4 @@
                 Здесь вы сможите задать интересующий вас вопрос и тут же получить ответ на него , также вы можете читать написанные статьи на интересующие вас темы и писать свои.
             </p>
         </div>
- https://ygamijs.github.io/Lite/
+ https://ygamijs.github.io/Lite/ https://www.youtube.com/watch?v=KYiACEaYXHU
