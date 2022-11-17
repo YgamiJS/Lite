@@ -12,7 +12,7 @@ document.querySelectorAll(".input_search").forEach((items) => {
     }
     items.addEventListener("focus" , function(){
         ParentInput.addEventListener("pointerout" , function(event){
-            if(!event.relatedTarget.closest(".fon-search")){
+            if(!event.relatedTarget.closest(".fon-search")){ //parent
                 document.querySelectorAll('.find-items').forEach((itemo) => itemo.remove());
                 items.blur();
                 items.value = '';
