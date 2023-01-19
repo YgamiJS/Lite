@@ -6,3 +6,6 @@
             </p>
         </div>
  https://ygamijs.github.io/Lite/
+
+
+!внимание плохой код!
